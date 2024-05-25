@@ -1,0 +1,219 @@
+body{
+    background-color: #d52bb0;
+}
+
+.main{
+    height: 100vh;
+}
+
+.rectangle {
+    position: absolute;
+    left: 0px;
+    top: 31px;
+    width: 1226px;
+    height: 1057px;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+.rectangle2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1226px;
+    height: 188px;
+    background: #ef72d4;
+    background-blend-mode: normal;
+}
+
+.appleiOSBu {
+    position: absolute;
+    left: 256px;
+    top: 43px;
+    width: 153px;
+    height: 39px;
+}
+  
+.buttonShap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 153px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+.appleiOSBu2 {
+    position: absolute;
+    left: 536px;
+    top: 43px;
+    width: 153px;
+    height: 39px;
+}
+  
+.buttonShap2 {
+    position: absolute;
+    left: 100pxpx;
+    top: 0px;
+    width: 153px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+.appleiOSBu p{
+    color: purple;
+    margin-left: 30px;
+}
+
+.appleiOSBu2 p{
+    color: purple;
+    margin-left: 30px;
+}
+
+.appleiOSBu3 p{
+    color: purple;
+    margin-left: 30px;
+}
+
+.appleiOSBu3 {
+    position: absolute;
+    left: 606px;
+    top: 43px;
+    width: 153px;
+    height: 39px;
+}
+  
+.buttonShap3 {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 153px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+.rectangle3 {
+    position: absolute;
+    left: 208px;
+    top: 121px;
+    width: 807px;
+    height: 419px;
+    background: #d52bb0;
+    background-blend-mode: normal;
+}
+
+.home {
+    position: absolute;
+    left: 22.56px;
+    top: 20px;
+    width: 161.44px;
+    height: 287px;
+    /* background:  url(../images/home.jpg)  no-repeat contain; */
+}
+
+.myword{
+    color: white;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.line {
+    position: absolute;
+    left: 24px;
+    top: 330.5px;
+    width: 158px;
+    height: 1px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.line1{
+    position: absolute;
+    left: 24px;
+    top: 370.5px;
+    width: 158px;
+    height: 1px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.line2{
+    position: absolute;
+    left: 24px;
+    top: 410.5px;
+    width: 158px;
+    height: 1px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.line3 {
+    position: absolute;
+    left: 228px;
+    top: 25px;
+    width: 1px;
+    height: 365.5px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.rectangle4 {
+    position: absolute;
+    left: 208px;
+    top: 620px;
+    width: 807px;
+    height: 419px;
+    background: #d52bb0;
+    background-blend-mode: normal;
+}
+
+.rectangle4 p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 350px;
+}
+
+.line4 {
+    position: absolute;
+    left: 327px;
+    top: 54px;
+    width: 161px;
+    height: 1px;
+    border: 1px solid #ffffff;
+    background: white;
+}
+
+.slideshow{
+    width: 90%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slide{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.slide img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.slide:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}

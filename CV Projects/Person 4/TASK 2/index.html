@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+        }
+
+        body{
+            background: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container{
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            min-height: 800px;
+            margin: 50px;
+            background: white;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 35px 55px rgba(0,0,0,0.1) ; 
+        }
+
+        .container .leftside{
+            position: relative;
+            background: gold;
+            padding: 40px;
+        }
+
+        .container .rightside{
+            position: relative;
+            background: white;
+            padding: 40px;
+        }
+
+        .profiletext{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid orange;
+        }
+
+        .profiletext h2{
+            color: white;
+            font-size: 1.5em;
+            margin-top: 20px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 600;
+            line-height: 1.4em;
+        }
+
+        .contactinfo{
+            padding-top: 40px;
+        }
+
+        .title{
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .contactinfo ul{
+            position: relative;
+        }
+
+        .contactinfo ul li{
+            position: relative;
+            list-style: none;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        .contactinfo ul li span{
+            color: white;
+            font-weight: 300;
+        }
+
+        .education{
+            margin-top: 60px;
+        }
+
+        .education li{
+            list-style: none;
+            margin-bottom: 15px;
+        }
+
+        .education h5{
+            color: orange;
+            font-weight: 500;
+        }
+
+        .education h4:nth-child(2){
+            color: white;
+            font-weight: 500;
+        }
+
+        .education h4{
+            color: white;
+            font-weight: 300;
+        }
+
+        .language ul li{
+            color: white;
+        }
+
+        .about p{
+            line-height: 2.5;
+        }
+
+        .about{
+            color: #848c99;
+            margin-bottom: 90px;     
+        }
+
+        .about:last-child{
+            margin-bottom: 0;
+        }
+
+        .tile{
+            color: orange;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .skills .bor{
+            position: relative;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            justify-content: center;
+            align-items: center;
+            line-height: 2.5;
+        }
+
+        .skills .bor h4{
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #848c99;
+        }
+
+        .interest{
+            margin-top: 70px;
+        }
+
+        .interest ul{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .interest ul li{
+            list-style: none;
+            color: #848c99;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <div class="profiletext">
+                <h2>Anamaria John</h2>
+            </div>
+
+            <div class="contactinfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="text">+255 621788848</span>
+                    </li>
+                    <li>
+                        <span class="text">Anamary@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="text">www.linkedin.com</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2022 - 2025</h5>
+                        <h4>Bachelor of Science in Information Systems Management</h4>
+                        <h4>Ardhi University</h4>
+                    </li>
+                    <li>
+                        <h5>2019 - 2021</h5>
+                        <h4>Bachelor of Science in Information Systems Management</h4>
+                    </li>
+                    <li>
+                        <h5>2015 - 2018</h5>
+                        <h4>Bachelor of Science in Information Systems Management</h4>
+                    </li>
+                    <li>
+                        <h5>2008 - 2014</h5>
+                        <h4>Bachelor of Science in Information Systems Management</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class=" contactinfo language">
+                <h3 class="title">LANGUAGES</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Swahili</li>
+                </ul>
+            </div>
+        </div>
+       
+        <div class="rightside">
+            <div class="about">
+                <h2 class="tile">
+                    Profile
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eveniet animi et obcaecati? Possimus corporis, molestias ratione numquam voluptatibu
+                    s totam excepturi molestiae aperiam quas facere placeat tenetur officia. Eius, similique! <br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, possimus. Eaque voluptates nam eos ex dicta 
+                    magnam maxime debitis non dolorum voluptatum sequi possimus veritatis eligendi, repellat velit nobis vitae.
+                </p>
+            </div>
+
+            <div class="skills">
+                <h2 class="tile">PROFESSIONAL SKILLS</h2>
+                <div class="bor">
+                    <h4>Html</h4>
+                </div>
+                <div class="bor">
+                    <h4>Css</h4>
+                </div>
+                <div class="bor">
+                    <h4>Javascript</h4>
+                </div>
+                <div class="bor">
+                    <h4>Photoshop</h4>
+                </div>
+                <div class="bor">
+                    <h4>Illustrator</h4>
+                </div>
+           </div>
+           
+           <div class="interest">
+                <h2 class="tile">Interest</h2>
+                <ul>
+                    <li>Singing</li>
+                    <li>Dancing</li>
+                    <li>Drawing</li>
+                </ul>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

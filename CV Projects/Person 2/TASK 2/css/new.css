@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'Courier New', Courier, monospace;
+}
+
+body{
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    width: 1000px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+}
+
+.container .first{
+    position: relative;
+    background: purple;
+    padding: 40px;
+}
+
+.container .second{
+    position: relative;
+    background: white;
+}
+
+.mynav{
+    color: white;
+}
+
+.mynav img{
+    margin-left: 400px;
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+}
+
+.mydescr{
+    background-color: white;
+    border-radius: 2px;
+    padding: 35px 20px;
+    border-bottom: 1px solid purple;
+}
+
+.mydescr p{
+    color: #848c99;
+    text-align: left;
+    line-height: 2.0;
+    font-size: 13px;
+}
+
+.mydescr p span{
+    font-weight: bold;
+}
+
+.he{
+    font-size: 15px;
+    font-weight: bold;
+    color: palevioletred; 
+}
+
+
+.myview{
+    padding: 20px 0;
+    border-bottom: 1px solid purple;
+    margin-top: 200px;
+}
+
+.myview p{
+    text-align: right;
+    line-height: 2.0;
+    font-size: 13px;
+    padding-bottom: -10px;
+    margin-top: -200px;
+}
+
+.myview p span{
+    font-size: 15px;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.edu{
+    margin-top: 200px;
+    border-bottom: 1px solid purple;
+}
+
+.tt{
+    margin-bottom: 5px;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tt td, .tt th{
+    border: 1px solid;
+    padding: 8px;
+}
+
+.tt tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tt tr:hover{
+    background-color: lightgrey;
+}
+
+.tt  th{
+    background-color: palevioletred;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+
+.edu p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skill{
+    text-align: right;
+    margin-top: 200px;
+    border-bottom: 1px solid purple;
+}
+
+.interest{
+    margin-top: 200px;
+    border-bottom: 1px solid purple;
+}
+
+.ref{
+    margin-top: 200px;
+    border-bottom: 1px solid purple;
+}
+
+.skill span{
+    color: palevioletred;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skill ul{
+    line-height: 2.0;
+    list-style: none;
+    margin-bottom: -40px;
+}
+
+.skill ul li{
+    padding-left: 150px;
+}
+
+.skill ul span{
+    padding-left: 500px;
+}
+
+.interest span{
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.interest ul{
+    margin-top: -150px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: #848c99;
+    margin-bottom: 100px;
+    line-height: 2.0;
+}
+
+.ref ul{ 
+    padding-bottom: 60px;
+    margin-left: 500px;
+    margin-top: -150px;
+    text-align: right;
+    list-style: none;
+    color: #848c99;
+    font-size: 13px;
+}
+
+.ref ul span{
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.edu td{
+    font-size: 13px;
+    color: purple;
+}
+
+.edu th{
+    font-size: 13px;
+}
+
+.appleiOSBu {
+    position: absolute;
+    left: -160px;
+    top: -20px;
+    width: 113px;
+    height: 39px;
+}
+  
+.buttonShap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 113px;
+    height: 39px;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+.appleiOSBu p{
+    color: purple;
+    margin-left: 30px;
+    margin-top: 10px;
+}
